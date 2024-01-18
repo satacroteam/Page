@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="css/reset.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-table.min.css" type="text/css">
     <link rel="stylesheet" href="css/animations.css" type="text/css">
     <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
@@ -124,7 +125,7 @@
                     </div>
                     <!-- /Entry meta -->
 
-                    <h2 class="entry-title">Best Practices for Animated Progress Indicators</h2>
+                    <h2 class="entry-title">Facebook Recruiting IV: Human or Robot ?</h2>
                   </header>
                   <!-- /Entry header -->
 
@@ -133,51 +134,89 @@
                     <div class="row">
                       <div class=" col-xs-12 col-sm-12 ">
                         <div class="col-inner">
-                          <p>Nulla nulla nisl, sodales ac nulla ac, consequat vulputate purus. Curabitur tincidunt ipsum vel nibh rutrum accumsan. Nunc ullamcorper posuere leo, vitae aliquet risus pharetra in. Integer turpis eros, iaculis et mi non, pulvinar egestas leo. Etiam sagittis ex turpis, vitae cursus tortor interdum eu. Quisque ultrices nunc eget erat vestibulum euismod. Ut mauris nisi, facilisis at arcu nec, facilisis porttitor lorem.</p><p>Vivamus vitae neque molestie, porta libero sed, tincidunt leo. In nec posuere odio, id rhoncus lorem. Proin id erat ut dolor condimentum viverra. Praesent viverra sed dolor ac luctus. Praesent placerat id lorem quis lacinia.</p>
-                          
-                          <blockquote class="quote">Maecenas id finibus felis. Etiam vitae nibh et felis efficitur pellentesque. Mauris suscipit sapien nunc, a lacinia nibh feugiat ut. In hac habitasse platea dictumst.
-                            <footer class="quote-author">
-                              <span>Larry L. Johnson</span>
-                            </footer>
-                          </blockquote>
-
-                          <p>Etiam interdum vulputate risus, vitae elementum neque consectetur sed. Donec at risus dui. Ut in suscipit neque. Vestibulum sit amet lobortis magna, commodo venenatis ante. Cras molestie, ex a auctor lacinia, risus est aliquam risus, sit amet semper purus tortor id ante. Donec lacus ipsum, porttitor et libero a, fringilla auctor quam. Sed in nisl id libero tincidunt aliquet. Aenean dui ipsum, auctor ut leo ut, semper dignissim lacus. Suspendisse faucibus viverra consequat. Maecenas efficitur massa vel eros sagittis dapibus. Nam lobortis mi in turpis hendrerit eleifend. Nulla non massa felis.</p>
-
-                          <p>Donec sit amet dolor ante. Vivamus vel massa accumsan, faucibus quam quis, convallis velit. Aliquam erat volutpat. Integer imperdiet diam quis arcu venenatis, quis sagittis nibh rhoncus. Donec non nisi scelerisque, sodales metus quis, accumsan mauris. Curabitur volutpat risus rutrum erat condimentum tristique. Nullam at felis diam. Quisque dictum felis non ante pretium mollis. Aliquam turpis neque, varius nec diam a, aliquam pulvinar diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ipsum libero, aliquet sed bibendum faucibus, semper a dui.</p>
+                          <h4>Description</h4>
+                          <p style="text-align:justify">Dans cette compétition, vous traquerez des robots sur un site d'enchères en ligne. Les enchérisseurs humains sur le site deviennent de plus en plus frustrés par leur incapacité à remporter des enchères par rapport à leurs homologues contrôlés par des logiciels. En conséquence, l'utilisation par la base de clients principale du site est en chute libre.</p>
+                          <p style="text-align:justify">Afin de restaurer le bonheur des clients, les propriétaires du site doivent éliminer les enchères générées par ordinateur. Leur tentative de construire un modèle pour identifier ces enchères en utilisant des données comportementales, y compris la fréquence d'enchère sur de courtes périodes de temps, s'est révélée insuffisante.</p>
+                          <p style="text-align:justify">L'objectif de cette compétition est d'identifier les enchères en ligne placées par des "robots", aidant ainsi les propriétaires du site à signaler facilement ces utilisateurs pour les supprimer de leur site afin de prévenir toute activité d'enchère déloyale.</p>
+                        </div>
+                        <br>
+                        <div class="col-inner">
+                          <h4>Résultats</h4>
+                          <table data-table-theme="dark zebra">
+                            <thead>
+                              <tr>
+                                <th>Model</th>
+                                <th>Public LB</th>
+                                <th>Private LB</th>
+                                <th>Date</th>
+                                <th>Commit</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Bid number statistical analysis ==&gt; Xgboost classifier</td>
+                                <td>0.89928</td>
+                                <td>0.90050</td>
+                                <td>9th January 2018</td>
+                                <td><a href="https://github.com/satacroteam/Human_or_Robot/tree/6f91faf0eab2ad50fc54c1dd31cdce467f5ecdaa">Script 1</a></td>
+                              </tr>
+                              <tr>
+                                <td>Bid number and bid time statistical analysis ==&gt; Xgboost classifier</td>
+                                <td>0.88477</td>
+                                <td>0.91041</td>
+                                <td>10th January 2018</td>
+                                <td><a href="https://github.com/satacroteam/Human_or_Robot/tree/e4a71983938b7500ef65a1d404219d7d0fd36375">Script 2</a></td>
+                              </tr>
+                              <tr>
+                                <td>Bid number and bid time statistical analysis ==&gt; Xgboost classifier (optimization)</td>
+                                <td>0.88546</td>
+                                <td>0.91498</td>
+                                <td>10th January 2018</td>
+                                <td><a href="https://github.com/satacroteam/Human_or_Robot/tree/8f1ab154e3321f929225358a50a74f5e9b4c3940">Script 3</a></td>
+                              </tr>
+                              <tr>
+                                <td>Bid number, bid argmax and bid time statistical analysis (normalize continuous data) ==&gt; Xgboost classifier</td>
+                                <td>0.91249</td>
+                                <td>0.92072</td>
+                                <td>14th January 2018</td>
+                                <td><a href="https://github.com/satacroteam/Human_or_Robot/tree/618842a9a2721155bbc3290b35afb45a1b96fe7f">Script 4</a></td>
+                              </tr>
+                              <tr>
+                                <td>Bid number, bid argmax, bid time statistical analysis (normalize continuous data) and PCA features ==&gt; Xgboost classifier</td>
+                                <td>0.91146</td>
+                                <td>0.92437</td>
+                                <td>14th January 2018</td>
+                                <td><a href="https://github.com/satacroteam/Human_or_Robot/tree/0de21b1e3e57bff618f98e71d14ca7bfdb48bfc6">Script 5</a></td>
+                              </tr>
+                              <tr>
+                                <td>Bid number, bid argmax, bid time statistical analysis (normalize continuous data), PCA features, feature selection and polynomial features ==&gt; Xgboost classifier</td>
+                                <td>0.90661</td>
+                                <td>0.92988</td>
+                                <td>14th January 2018</td>
+                                <td><a href="https://github.com/satacroteam/Human_or_Robot/tree/ee9032131d0ff8211274a21a80b633ff21b7ed03">Script 6</a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <br>
+                        <div class="col-inner">
+                          <h4>Classement</h4>
+                          <p>Classement final : 94/985 (private leaderboard)</p>
+                        </div>
+                        <br>
+                        <div class="col-inner">
+                          <h4>Pistes à explorer</h4>
+                          <ul>
+                            <li>Extraire davantage de caractéristiques statistiques</li>
+                            <li>Méthodes ensemblistes</li>
+                            <li>Stacking (Tpot)</li>
+                            <li>Gridsearch</li>
+                          </ul>
                         </div>
                       </div>
                     </div>
                   </div>
                   <!-- /Entry content -->
-    
-                  <div class="entry-meta entry-meta-bottom">
-                    <div class="date-author">
-                      <span class="entry-date">
-                        <a href="#" rel="bookmark">
-                          <i class="far fa-clock"></i> <span class="entry-date"> March 16, 2020</span>
-                        </a>
-                      </span>
-                      <span class="author vcard">
-                        <a class="url fn n" href="#" rel="author"> <i class="fas fa-user"></i> LMPixels</a>
-                      </span>
-                    </div>
-      
-                    <!-- Share Buttons -->
-                    <div class="entry-share btn-group share-buttons">
-                      <a href="#" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Facebook">
-                        <i class="fab fa-facebook-f"></i>
-                      </a>
-                      
-                      <a href="#" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Twitter">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-
-                      <a href="#" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="btn" title="Share on LinkedIn">
-                        <i class="fab fa-linkedin-in"></i>
-                      </a>
-                    </div>
-                    <!-- /Share Buttons -->
-                  </div>
 
                   <div class="post-tags">
                     <div class="tags">
